@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tewr.Blazor.FileReader" Version="1.1.0.19274" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CloudMediaInfoML.Model\CloudMediaInfoML.Model.csproj" />
+  </ItemGroup>
+
+</Project>
